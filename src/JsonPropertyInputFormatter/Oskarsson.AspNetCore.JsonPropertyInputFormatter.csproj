@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Tobias Oskarsson</Authors>
+    <Company />
+    <Product>JsonPropertyInputFormatter</Product>
+    <PackageTags>aspnetcore;aspnetcoremvc;json</PackageTags>
+    <Description>ASP.NET Core MVC feature to deserialize a Content-Type: application/json HTTP Request directly to controller parameters without defining an input class.</Description>
+    <RepositoryUrl>https://github.com/Oskarsson/AspNetCore.JsonPropertyInputFormatter.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
+  </PropertyGroup>
+
+</Project>
